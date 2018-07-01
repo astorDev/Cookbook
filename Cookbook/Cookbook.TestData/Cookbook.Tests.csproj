@@ -7,15 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FakeItEasy" Version="4.6.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.6.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.2.0" />
     <PackageReference Include="MSTest.TestFramework" Version="1.2.0" />
-    <PackageReference Include="Smocks" Version="0.7.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Cookbook.Domain\Cookbook.Domain.csproj" />
-    <ProjectReference Include="..\Cookbook.TestData\Cookbook.Tests.csproj" />
   </ItemGroup>
 
 </Project>
